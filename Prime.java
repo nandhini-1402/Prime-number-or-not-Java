@@ -4,7 +4,7 @@ public class Prime
     public static void main(String[] args){
     Scanner s=new Scanner(System.in);
       int number=s.nextInt();
-      int c=0;
+      int c=0;//assign c (count value) as 0
       if(number<1){
 System.out.print("Not a prime number");}
         for(int i=1;i<=number/2;i++){
